@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/g-clef/ThreatIntelCollector.git
-    targetRevision: main
+    targetRevision: master
     path: kubernetes
   destination:
     server: https://kubernetes.default.svc
