@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/g-clef/ThreatIntelCollector.git
     targetRevision: master
-    path: kubernetes
+    path:     argo-manifests/ti-collector/
   destination:
     server: https://kubernetes.default.svc
     namespace: ti-collector
